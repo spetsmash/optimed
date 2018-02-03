@@ -1,0 +1,31 @@
+p {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+
+.comment-facebook {
+    width: 2.5em;
+}
+
+.comment-vk {
+    margin-top: -3px;
+    width: 2.4em;
+}
+
+.img-arrive {
+    width: 100%;
+    padding: 10px;
+}
+.comment-btn {
+    margin-bottom: 0px;
+}
+/*.navbar-default {*/
+/*//background-color: #225a84 !important;*/
+    /*background-image: url(../images/top-bachground.png);*/
+    /*border-color: #ffffff !important;*/
+/*}*/
+/*.navbar-default .navbar-nav>li>a {*/
+    /*color: #fff !important;*/
+    /*font-weight: 500;*/
+/*}*/

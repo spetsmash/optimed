@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Optimed</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="https://use.fontawesome.com/0bb99c9950.js"></script>
+
+</head>
+<body>
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top table-menu"  role="navigation">
+    <div class="container navbar header-nav">
+
+
+        <a class="navbar-brand" href="index.html">
+            <!--<img src="images/logo.png" width="30" height="30" class="logo-img d-inline-block align-top" alt="" />-->
+            <p style="margin: 0 0 10px; font-size: 40px; margin-top: 2px; color: #4678a2;">Optimed</p>
+        </a>
+
+        <ul class="menu nav navbar-nav navbar-right navbar-menu-right width-1024">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="clinic.html">Клиники</a></li>
+            <li><a href="comment.html">Отзывы</a></li>
+            <li class="nav-li-right"><a href="#contacts">Контакты</a></li>
+            <!--<li class="custom-sel">-->
+            <!--<a class="selected first-language" href="#">EN</a>-->
+            <!--<a class="hidden change" href="#">RU</a>-->
+            <!--<a class="hidden change" href="#">UA</a>-->
+            <!--<b class="caret"></b>-->
+            <!--</li>-->
+        </ul>
+
+        <div class="dropdown global-menu">
+            <button class="btns btn-default dropdown-toggle tablet-menu" type="button" ng-click="home.openMenu()"><i
+                    class="fa fa-bars color-black" aria-hidden="true"></i></button>
+        </div>
+        <ul class="slicknav_nav" aria-hidden="false" role="menu">
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://medconsalt.net/services.html" role="menuitem" >Наши услуги</a></li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-282"><a href="https://medconsalt.net/clinic.html" role="menuitem" >Клиника в Германии</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1406"><a href="https://medconsalt.net/comment.html" role="menuitem" >Отзывы</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="#contacts" role="menuitem" >Контакты</a></li>
+        </ul>
+    </div>
+
+</nav>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left:0; padding-right:0">
+    <div class="wrapper-main col-xs-12 col-sm-12 col-md-8 col-lg-8" style="padding-left:0; padding-right:0">
+        <div class="bl_opa"></div>
+        <div class="image">
+            <!--<div class="container-for-text text_slider">-->
+            <!--<div class="h_title">-->
+            <!--<h1>Медицинское обслуживание <br>в Германии без посредников</h1>-->
+            <!--</div>-->
+            <!--<div class="pod_h_t width-768">-->
+            <!--Получите немецкое медицинское обслуживание с оплатой напрямую в кассу клиники-->
+            <!--</div>-->
+            <!--<div class="pod_h_t width-425">-->
+            <!--Немецкое медицинское обслуживание как для-->
+            <!--<span style="text-decoration: underline">граждан Германии</span>-->
+            <!--</div>-->
+            <!--<div class="h_btns">-->
+            <!--<a class="btns btn_pop treatment" name="Подать заявку на лечение">Заявка на обследование/лечение</a>-->
+            <!--<span class="or width-768 ">или</span>-->
+            <!--<a class="btn_go btn_pop width-768 consultation" name="Подать заявку на консультацию">Получить консультацию</a>-->
+            <!--</div>-->
+            <!--</div>-->
+        </div>
+
+    </div>
+    <div class="form-place col-xs-12 col-sm-12 col-md-4 col-lg-4" style="padding-left:0; padding-right:0">
+        <div class=" form_kak_mob">
+            <div class="form_kak_top">
+                <div class="form_kak_t" style="padding-top: 55px;">Заказать консультацию</div>
+                <div></div>
+                <form class="contactform" id="formtop" method="post" style="padding: 0 30px;">
+                    <div class="success_polt"></div>
+                    <input type="text" class="name_inp" name="name" placeholder="Введите ваше имя" value="" required="">
+                    <select class="country_inp" required="required" name="country" id="country_form">
+                        <option value="" disabled selected>Выберите страну...</option>
+                        <option value="Украина">Украина</option>
+                        <option value="Россия">Россия</option>
+                    </select>
+                    <input type="text" class="skype_inp" name="phone" value="" placeholder="Телефон" required="" id="phone_form">
+                    <input type="text" class="mail_inp" name="mail" value="" placeholder="Введите ваш email (не обязательно)">
+                    <input type="submit" class="btn-blue submit free-consult" name="submit_polt" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="pt-10 services">
+    <div class="container-for-text">
+        <div class="title_w">
+            <div class="title">Наши Услуги</div>
+            <div class="pod_title">
+                Выберите подходящее для Вас направление
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <a class="us_href" href="https://medconsalt.net/services.html">
+                    <span class="us_img_w"><img src="images/us1.jpg" alt=""></span>
+                    <span class="us_title">Организация диагностики всех заболеваний</span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <a class="us_href" href="https://medconsalt.net/services.html">
+                    <span class="us_img_w"><img src="images/us2.jpg" alt=""></span>
+                    <span class="us_title">Проведение оперативного и амбулаторного лечения</span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <a class="us_href" href="https://medconsalt.net/services.html">
+                    <span class="us_img_w"><img src="images/us3.jpg" alt=""></span>
+                    <span class="us_title">Реабилитация</span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <a class="us_href" href="https://medconsalt.net/services.html">
+                    <span class="us_img_w"><img src="images/us4.jpg" alt=""></span>
+                    <span class="us_title">Медицинский check-up</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section  id="1" class="why-we mt-50">
+    <div class="bl_opa_why"></div>
+    <div class="image-why">
+        <div class="container relativez prichini_w">
+            <div class="title_w white">
+                <div class="title">6 Причин работать с нами</div>
+            </div>
+            <div class="row reasons">
+                <div class="col-xs-12 col-sm-6 col-md-4 prichina_item">
+                    <div class="prichina_in_w">
+                        <div class="prichina_in">
+                            <div class="pr_num"><div class="pr_num_in">1</div></div>
+                            <img class="pr_img" src="images/pr1.png" alt="">
+                            <div class="pr_title">Университская клиника</div>
+                            <div class="pr_text">
+                                Университетские клиники Германии - государственные. <span style="text-decoration: underline">Ценообразование гарантированно контролируется государством.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 prichina_item">
+                    <div class="prichina_in_w">
+                        <div class="prichina_in">
+                            <div class="pr_num"><div class="pr_num_in">2</div></div>
+                            <img class="pr_img" src="images/pr4.png" alt="">
+                            <div class="pr_title">Экономия средств</div>
+                            <div class="pr_text">
+                                Мы предлагаем лечение в Германии на 40% дешевле, чем лечение в Израиле. В отличии от других компаний,
+                                лечение у нас оплачивается напрямую в клинику
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 prichina_item">
+                    <div class="prichina_in_w">
+                        <div class="prichina_in">
+                            <div class="pr_num"><div class="pr_num_in">3</div></div>
+                            <img class="pr_img" src="images/pr3.png" alt="">
+                            <div class="pr_title">Официальный договор</div>
+                            <div class="pr_text">
+                                Договорные отношения на всех этапах организации и прохождения лечения в Германии.
+                                Весь перечень наших услуг будет зафиксирован в договоре.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 prichina_item">
+                    <div class="prichina_in_w">
+                        <div class="prichina_in">
+                            <div class="pr_num"><div class="pr_num_in">4</div></div>
+                            <img class="pr_img" src="images/pr2.png" alt="">
+                            <div class="pr_title">Профессиональный подход</div>
+                            <div class="pr_text">
+                                С Вами будут
+                                работать опытные профессионалы:
+                                визовая поддержка, перевод документов,
+                                встреча в Германии и подбор нужного врача.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 prichina_item">
+                    <div class="prichina_in_w">
+                        <div class="prichina_in">
+                            <div class="pr_num"><div class="pr_num_in">5</div></div>
+                            <img class="pr_img" src="images/pr5.png" alt="">
+                            <div class="pr_title">Решение любых задач</div>
+                            <div class="pr_text">
+                                Встреча, обследование, постановка диагноза, лечение заболеваний любой сложности,
+                                реабилитация после травм, инсультов и т.д.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 prichina_item">
+                    <div class="prichina_in_w">
+                        <div class="prichina_in">
+                            <div class="pr_num"><div class="pr_num_in">6</div></div>
+                            <img class="pr_img" src="images/pr6.png" alt="">
+                            <div class="pr_title">Поддержка 24/7</div>
+                            <div class="pr_text">
+                                Мы решаем <a href="services.html" style="text-decoration: underline; color:red"> любые вопросы, а также возможные бытовые трудности</a> в Германии.
+                                Трансфер, проживание, транспорт - это наша забота.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="2" class="why_germany width100 ">
+    <div class="container">
+        <div class="title_w  mb-0">
+            <div class="title">Почему Uniklinikum Pегенсбурга</div>
+            <div class="pod_title">
+                <a href="clinic.html" style="text-decoration: underline; color:red">Университетская клиника Регенсбурга</a> входит в тройку лучших лечебных учреждений Германии.
+                <br> В ней работают специалисты с мировым именем, ведутся исследования и внедряются <br> новые научные методы лечения и диагностики
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg3 width100 relative">
+        <div class="why_cover_clinic"></div>
+
+        <div class="container relativez pt-10 pb-20 ovxhi">
+            <div class="vert_line_w">
+                <div class="vert_line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <!--<div class="one_why_title">-->
+                    <!--Образование в Германии-->
+                    <!--</div>-->
+                    <div class="why_item">
+                        <img src="images/why1.png" alt="">
+                        <div class="why_text_w">
+                            <div class="why_title">
+                                Многопрофильная клиника
+                            </div>
+                            <div class="why_text">
+                                Клиника включает в себя множество департаментов различного профиля, от терапии, хирургии, дерматологии,
+                                онкологии до отделения трансплантации. Здесь можно пройти как обследование, так и необходимое
+                                лечение любого типа и уровня сложности.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why_item">
+                        <img src="images/why2.png" alt="">
+                        <div class="why_text_w">
+                            <div class="why_title">
+                                Оплата только указанных услуг без иностранного отдела
+                            </div>
+                            <div class="why_text">
+                                Клиника составляет договор и предоставляет счет непосредственно пациенту как и всем гражданам Германии
+                                без страховки. Вы не проводите оплату через иностранные отделы (с ценообразованием для иностранцев) и посредников с наценками
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why_item">
+                        <img src="images/why3.png" alt="">
+                        <div class="why_text_w">
+                            <div class="why_title">
+                                Профессорский состав мирового уровня
+                            </div>
+                            <div class="why_text">
+                                Клиника относится к университету, а соответственно в основе диагностики и лечения лежит научный подход
+                                с использованием передовых методов и последних инноваций.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 mt50_mob991">
+                    <!--<div class="one_why_title">-->
+                    <!--Работа врачом в Германии-->
+                    <!--</div>-->
+                    <div class="why_item">
+                        <img src="images/why4.png" alt="">
+                        <div class="why_text_w">
+                            <div class="why_title">
+                                Комфортные условия лечения
+                            </div>
+                            <div class="why_text">
+                                Пациент находится в комфортабельной палате с возможностью выбора вариантов меню на день.
+                                Посещение сопровождающими лицами возможно в любое время дня и приветствуется руководством клиники.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why_item">
+                        <img src="images/why5.png" alt="">
+                        <div class="why_text_w">
+                            <div class="why_title">
+                                Высокий уровень положительного исхода лечения
+                            </div>
+                            <div class="why_text">
+                                Наличие современного медицинского оборудования и опытного персонала позволяет точно поставить диагноз,
+                                что влияет на верно выбранного направления лечения. Соверменные методы послеоперационной реабилитации позволяют
+                                значительно сократить время лечения пациента.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why_item">
+                        <img src="images/why6.png" alt="">
+                        <div class="why_text_w">
+                            <div class="why_title">
+                                Удобная локация
+                            </div>
+                            <div class="why_text">
+                                Регенсбург находится недалеко от Мюнхена и от границы с Австрией, что удобно как для тех, кто
+                                предпочитает авиа, так и наземные виды транспорта.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="width100 pt-70 why_us width-768">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 mt-10">
+                <div class="kak_title">
+                    Почему лучше работать с нами?
+                </div>
+                <div class="kak_text">
+                    Мы сами сталкивались с поиском вариантов лечения в Германии и знакомы со всеми этапами: поиск врача, назначение
+                    термина (прием у доктора), получение визы, приезда в Германию, прием,
+                    постановка диагноза, операция, реанимация, выписка. Мы знаем все вопросы которые могут возникнуть в незнакомом
+                    городе: поиск жилья, оптимальное транспортное соединение, мобильная связь, интернет, необходимые магазины и т.д.
+                    <br>
+                    <br>
+                    Используйте наш опыт  по лечения в Германии с максимальной пользой и получайте лечение по реальным ценам.
+                </div>
+                <div class="row relative mt-20">
+                    <div class="vert_line_kak"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 mob_kak">
+                        <img class="kak_img" src="images/kak1.png" alt="">
+                        <div class="kak_in_t">
+                            <div class="kak_n">427</div>
+                            <div class="kak_t">
+                                Столько клиентов мы обслужили
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 mob_kak">
+                        <img class="kak_img" src="images/kak2.png" alt="">
+                        <div class="kak_in_t">
+                            <div class="kak_n">6</div>
+                            <div class="kak_t">
+                                С клиентами из стольких стран мы работаем
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 form_kak_mob">
+                <div class="form_kak">
+                    <div class="form_kak_t"><span class="red">Бесплатная</span> Консультация</div>
+                    <div class="form_kak_pod">
+                        У вас есть вопросы? Закажите консультацию, предусматривающую рассмотрение конкретно Вашей ситуации и
+                        необходимых шагов по достижению поставленной цели.
+                    </div>
+                    <form class="contactform" id="form" method="post">
+                        <div class="success_polt"></div>
+                        <input type="text" class="name_inp" name="name" placeholder="Введите ваше имя" value="" required="">
+                        <select class="country_inp" required="required" name="country" id="country_form">
+                            <option value="" disabled selected>Выберите страну...</option>
+                            <option value="Украина">Украина</option>
+                            <option value="Россия">Россия</option>
+                        </select>
+                        <input type="text" class="skype_inp" name="phone" value="" placeholder="Телефон" required="" id="phone_form">
+                        <input type="text" class="mail_inp" name="mail" value="" placeholder="Введите ваш email (не обязательно)">
+                        <input type="submit" class="btns submit free-consult" name="submit_polt" value="Получить Консультацию">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sep width100 relative mt-70 mb-10 width-768">
+    <img class="sep_img" src="images/sep_img.png" alt="">
+    <div class="sep_line"></div>
+</section>
+
+<section class="faq width100 width-768">
+    <div class="container">
+        <div class="title_w">
+            <div class="title">Частые вопросы</div>
+        </div>
+        <div class="row relative">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 pr-30 quest1">
+                <div class="faq_w">
+                    <div class="faq_i">
+                        <a class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Какое время ожидания ответа на мой запрос на сайта?</span>
+                        </a>
+                        <div class="newscontent display_none " >
+                            Ваш запрос будет обязательно обработан до конца рабочего дня.
+                        </div>
+                    </div>
+
+                    <div class="faq_i">
+                        <a  class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Какая виза для лечения в Германии мне нужна и как долго ее оформлять?</span>
+                        </a>
+                        <div class="newscontent display_none" data-id="1d">
+                            Если у Вас нет действующей шенгенской визы, Вам необходимо будет ее оформить. Этим Вы можете заняться сами имея
+                            приглашение от клинике или доверить эту задачу нам. В зивисимости от наличия необходимых документов, виза оформляется около 2-х недель           </div>
+                    </div>
+
+                    <div class="faq_i">
+                        <a  class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Какие медицинские документы нужны для лечения в Германии?</span>
+                        </a>
+                        <div class="newscontent display_none">
+                            Если у Вас есть на руках какие-либо результаты и анализы обследований, то лучше их взять с собой.
+                            Это даст возможность немецким врачам быстрее понять суть проблемы и сократить Ваш перечень анализов и обследований для постановки точного диагноза.
+                        </div>
+                    </div>
+
+                    <div class="faq_i">
+                        <a  class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Сколько времени может занять пребывание в клинике? ?</span>
+                        </a>
+                        <div class="newscontent display_none">
+                            Медицинское обследование занимаетб как правилоб 1-5 дней.
+                            Оперативное лечение, как правило, не занимает более 7-14 дней пребывания в клинике. В некоторых случаях,
+                            уже на третий день после операции пациент может быть выписан из клиники, т.к. большинство операций
+                            малоинвазивны, что значительно сокращает период восстановления пациента.
+                        </div>
+                    </div>
+
+                    <div class="faq_i">
+                        <a class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Я хочу поехать на лечение в Германию, но боюсь, что это очень дорого.</span>
+                        </a>
+                        <div class="newscontent display_none">
+                            Мы предлагаем пройти лечение в Германии или обследование в Германии по ценам установленным и контролируемым государством.
+                            Клиника выставит Вам счет как рядовому жителю Германии не имеющему страховки. Таким образом лечение или диагностика
+                            в Германии или лечение обойдется Вам дешевле чем в Израиле на 30-40%
+                        </div>
+                    </div>
+
+                    <div class="faq_i">
+                        <a  class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Какие заболевания лечат в клинике?</span>
+                        </a>
+                        <div class="newscontent display_none">
+                            Uniklinikum - это университетская многопрофильная клиника в которую приезжают пациенты со всей Германии.
+                            Клиника занимается практически всеми направлениями медицины от пластической хирургии до детский онкологии.
+                            Лечение рака в Германии проводится согласно новейших методик. Со списком отделений Вы можете ознакомиться
+                            <a href="clinic.html">тут</a>.
+                        </div>
+                    </div>
+
+                    <div class="faq_i">
+                        <a  class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Я не знаю немецкого языка, как я смогу лечиться и находится в Германии</span>
+                        </a>
+                        <div class="newscontent display_none">
+                            В Германии Вас встретит человек говорящий на русском и немецком языках. Он будет сопровождать Вас весь
+                            период лечения или диагностики и даст рекомендации
+                            по организации досуга, перемещения, шопинга и будет сопровождать, если это необходимо.
+                        </div>
+                    </div>
+
+                    <div class="faq_i">
+                        <a class="newstitle">
+                            <span class="bot_ar_faq"></span>
+                            <span class="newstitle_in">Когда необходимо производить оплату: до или после лечения? </span>
+                        </a>
+                        <div class="newscontent  display_none">
+                            Клиники Германии принимают иностранных пациентов только на условии полной предоплаты лечения, клиника
+                            выставляет счет напрямую пациенту. Если программа лечения по каким-либо причинам сокращается или отпадает
+                            необходимость в предоплаченных обследованиях/процедурах, то клиника осуществляет возврат невостребованных
+                            средств на счет пациенту.
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="contacts" class="center mt-40">
+            <a class="btns pulse-buttonr11 lp_btn btn_pop question" name="Задать вопрос">Задать свой вопрос</a>
+        </div>
+    </div>
+</section>
+
+
+<footer  class="new bg4 footer width100 pb-300 pt-70 mt-70 relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="fc">
+                    <div class="fc3 fc_in">
+                        <div class="f_t">
+                            Mail: info@medconsalt.net<br>Skype: medconsalt
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="fc">
+                    <div class="fc2 fc_in">
+                        <div class="f_t">
+                            Украина +38 (098) 7-925-925
+                            <br>
+                            Россия +79 2727-72-387
+                            <br>
+                            Германия +49 15-777-80-5196
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="fc">
+                    <div class="fc1 fc_in">
+                        <div class="f_t">
+                            Гемания, <br>
+                            Franz-Josef-Strauß-Allee 11, 93053 Regensburg
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row">-->
+            <!--<div class="col-xs-12 col-sm-12 col-md-6 foot_our center991">-->
+                <!--<div class="ft">-->
+                    <!--Наша цель-->
+                <!--</div>-->
+                <!--<div class="f_text">-->
+                    <!--Наша компания помогает получить качественную медицинскую помощь в Германии. Мы помогаем пациенту напрямую и-->
+                    <!--с комфортом контактировать с клиникой.-->
+                <!--</div>-->
+                <!--<div class="title_soc">-->
+                    <!--Мы в соцсетях-->
+                <!--</div>-->
+                <!--<div class="soc">-->
+                    <!--<a href="https://m.vk.com/id421173801" target="_blank" rel="nofollow">-->
+                        <!--<img src="images/vk.png" alt="">-->
+                    <!--</a>-->
+                    <!--<a href="" target="_blank" rel="nofollow">-->
+                        <!--<img src="images/gp.png" alt="">-->
+                    <!--</a>-->
+                    <!--<a href="https://www.facebook.com/%D0%9C%D0%B5%D0%B4%D0%BA%D0%BE%D0%BD%D1%81%D0%B0%D0%BB%D1%82-1335768006480498/" target="_blank" rel="nofollow">-->
+                        <!--<img src="images/fc.png" alt="">-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-xs-12 col-sm-12 col-md-6 mt-30 center991 mob991_none_zakaz">-->
+                <!--<a class="iphone_href btn_pop" href="#my-popup" data-mail="true" data-effect="mfp-zoom-in"-->
+                   <!--data-name="Бесплатная Skype консультация" data-from="Бесплатная Skype консультация">-->
+                    <!--<span class="iphone_w">-->
+                    <!--<img class="iphone shake" src="images/iphone.png" alt="">-->
+                    <!--</span>-->
+                    <!--<span class="zazv_f">-->
+                        <!--<span>-->
+                    <!--Заказать <br>-->
+                    <!--консультацию<br>-->
+                    <!--по Skype-->
+                    <!--</span>-->
+                    <!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+
+</footer>
+
+<div class="modal_back mfp-bg display_none mfp-zoom-in mfp-ready"></div>
+<div class="modal_treatment display_none mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-zoom-in mfp-ready" id="modalTreatment" tabindex="-1"
+     style="overflow-x:  hidden; overflow-y: auto;"><div class="mfp-container mfp-s-ready mfp-inline-holder">
+    <div class="mfp-content"><div id="my-popup" class="white-popup mfp-with-anim">
+        <div class="zakazatli_site">
+            <div class="zakaz_sit" ></div>
+            <div class="zak_form">Введите свое имя и телефон. Наш менеджер свяжется с Вами в ближайшее время!</div>
+            <div class="forma_vopros">
+                <form id="form1" action="" method="post" class="contactform">
+                    <div class="success_polt"></div>
+                    <input type="text" required="required" value="" placeholder="Ваше имя *" name="name" class="name_inp">
+                    <select class="country_inp" required="required" name="country" id="country_form1">
+                        <option value="" disabled selected>Выберите страну...</option>
+                        <option value="Украина">Украина</option>
+                        <option value="Россия">Россия</option>
+                    </select>
+                    <input type="text" required="required" placeholder="Телефон *" value="" name="phone" class="skype_inp" id="phone_form1">
+                    <input type="text"  placeholder="Ваш Email (не обязательно)" value="" name="mail" class="mail_inp">
+
+                    <input type="submit" value="Отправить" class="btns submit button">
+                </form>
+            </div>
+
+        </div>
+        <button title="Закрыть (Esc)" type="button" class="mfp-close mfp-close-reg">×</button></div></div>
+    <div class="mfp-preloader">Загрузка...</div></div></div>
+
+
+<div class="modal_treatment display_none mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-zoom-in mfp-ready" tabindex="-1"
+     style="overflow-x: hidden; overflow-y: auto;" id="modalMessage"><div class="mfp-container mfp-s-ready mfp-inline-holder">
+    <div class="mfp-content"><div id="my-popup1" class="white-popup mfp-with-anim">
+        <!--<div class="form_left">-->
+
+        <!--</div>-->
+        <div class="zakazatli_site">
+            <div class="zakaz_sit" ></div>
+            <div class="zak_form">Мы свяжемся с Вами в ближайшее время!</div>
+            <div class="forma_vopros">
+                <form id="form3" action="" method="post" class="contactform">
+                    <div class="success_polt"></div>
+                    <input type="text" required="required" value="" placeholder="Ваше имя *"  class="name_inp">
+                    <select class="country_inp" required="required" name="country" id="country_form3">
+                        <option value="" disabled selected>Выберите страну...</option>
+                        <option value="Украина">Украина</option>
+                        <option value="Россия">Россия</option>
+                    </select>
+                    <input type="text" required="required" placeholder="Телефон *" value="" name="phone" class="skype_inp" id="phone_form3">
+                    <input type="text"  placeholder="Ваш Email (не обязательно)" value="" name="mail" class="mail_inp">
+                    <textarea class="textarea_form" name="message" placeholder="Ваше ссообщение" value=""></textarea>
+                    <input type="submit" value="Оставить заявку" class="btns submit button">
+                </form>
+            </div>
+            <!-- end forma -->
+        </div>
+
+
+
+        <!--<div class="form_left">-->
+
+        <!--</div>-->
+
+
+
+        <button title="Закрыть (Esc)" type="button" class="mfp-close mfp-close-mes">×</button></div></div>
+
+
+
+    <div class="mfp-preloader">Загрузка...</div></div></div></div>
+<div class="display_none confirmation">
+    <div class="zak_form">
+        <p>Сообщение успешно отправлено.</p>
+        <p>Наши менеджеры свяжутся с Вами.</p>
+    </div>
+</div>
+
+<div class="confirmation-top display_none">
+    Спасибо, <br> мы скоро свяжемся с Вами
+</div>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>

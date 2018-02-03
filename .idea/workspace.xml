@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8949b56-ca7f-4b70-a14e-beb5323b0b5c" name="Default" comment="top changed, consultation form">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/optimed.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clinic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/clinic.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/comment.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/example.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamPro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBlack/GothamProBlack.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBlack/GothamProBlack.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBlack/GothamProBlack.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBlackItalic/GothamProBlackItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBlackItalic/GothamProBlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBlackItalic/GothamProBlackItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBold/GothamProBold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBold/GothamProBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBold/GothamProBold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBoldItalic/GothamProBoldItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBoldItalic/GothamProBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProBoldItalic/GothamProBoldItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProItalic/GothamProItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProItalic/GothamProItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProItalic/GothamProItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProLight/GothamProLight.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProLight/GothamProLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProLight/GothamProLight.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProLightItalic/GothamProLightItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProLightItalic/GothamProLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProLightItalic/GothamProLightItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProMedium/GothamProMedium.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProMedium/GothamProMedium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProMedium/GothamProMedium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProMediumItalic/GothamProMediumItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProRegular/GothamProRegular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProRegular/GothamProRegular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/GothamPro/GothamProRegular/GothamProRegular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Facebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Health-Medical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Microsoft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/Universitätsklinik.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/VK500.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/bg1_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/bg2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/bg3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/bg4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/bot_ar_faq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/clinic_reg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/20161018_134953.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/20161018_190502.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/20161018_232551.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/arrive1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/arrive2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/arrive3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/city1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/city2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/city3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/city4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/clinic9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/hospitalization1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/hospitalization2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/hospitalization3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/hospitalization4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/inception.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/kavernoma.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/comments/operation8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/daecherblick_2_stadt_regensburg_bilddokumentation.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/dropbox_layout.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/f_arr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/fc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/fc1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/fc2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/fc3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/form_kak.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/freiburg-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/gallery_main.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/germany_640.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/gp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/images.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/imgpsh_fullsize.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/iphone.xcf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/iphone1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/kak1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/kak2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/logo (копия).xcf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/logo.xcf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/logo1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/mail_inp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/menu_arr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/name_inp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/phone_inp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pr1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pr2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pr3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pr4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pr5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pr6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/sep_img.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/sep_img2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/skype_inp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/sprites.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/top-bachground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/ukr_ire_a.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/us1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/us2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/us3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/us4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/vk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/why1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/why2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/why3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/why4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/why5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/why6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/clinic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery.maskedinput.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery.maskedinput.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/js.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/send.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sendcomment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sendmes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/services.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="77" column="26" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1517665055363" expanded="false" signature="3369:3395" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clinic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="571" column="0" lean-forward="false" selection-start-line="571" selection-start-column="0" selection-end-line="571" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="435" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="212" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/send.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clinic.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/clinic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="7866" column="24" lean-forward="false" selection-start-line="7866" selection-start-column="24" selection-end-line="7866" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="3659" column="0" lean-forward="true" selection-start-line="3659" selection-start-column="0" selection-end-line="3659" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clinic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/clinic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nav .menu</find>
+      <find>awe</find>
+      <find>navbar-defa</find>
+      <find>navbar-default</find>
+      <find>#333</find>
+      <find>#ff</find>
+      <find>font</find>
+      <find>menu</find>
+      <find>body</find>
+      <find>daech</find>
+      <find>dae</find>
+      <find>bla</find>
+      <find>frei</find>
+      <find>form_ka</find>
+      <find>.menu</find>
+      <find>form_kak_t</find>
+      <find>name_in</find>
+      <find>nav</find>
+      <find>nav .m</find>
+      <find>bl_opa</find>
+      <find>form_kak</find>
+      <find>nav .me</find>
+      <find>form_kak_top</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/comment.css" />
+        <option value="$PROJECT_DIR$/js/clinic.js" />
+        <option value="$PROJECT_DIR$/clinic.html" />
+        <option value="$PROJECT_DIR$/comment.html" />
+        <option value="$PROJECT_DIR$/services.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$PROJECT_DIR$/css/clinic.css" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1600" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="optimed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optimed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optimed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optimed" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optimed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optimed" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/old/detect" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8949b56-ca7f-4b70-a14e-beb5323b0b5c" name="Default" comment="" />
+      <created>1517650453825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517650453825</updated>
+      <workItem from="1517650455035" duration="13437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13437000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1600" height="875" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495226" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="top changed, consultation form" />
+    <option name="LAST_COMMIT_MESSAGE" value="top changed, consultation form" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/comment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/daecherblick_2_stadt_regensburg_bilddokumentation.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/clinic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="212" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="571" column="0" lean-forward="false" selection-start-line="571" selection-start-column="0" selection-end-line="571" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="77" column="26" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1517665055363" expanded="false" signature="3369:3395" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="435" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/clinic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="7866" column="24" lean-forward="false" selection-start-line="7866" selection-start-column="24" selection-end-line="7866" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="3659" column="0" lean-forward="true" selection-start-line="3659" selection-start-column="0" selection-end-line="3659" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

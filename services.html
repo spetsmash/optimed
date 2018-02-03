@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medconsalt</title>
+    <link rel="stylesheet" href="css/clinic.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://use.fontawesome.com/0bb99c9950.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top table-menu"  role="navigation">
+    <div class="container navbar header-nav">
+
+
+        <a class="navbar-brand" href="index.html">
+            <!--<img src="images/logo.png" width="30" height="30" class="logo-img d-inline-block align-top" alt="" />-->
+            <p style="margin: 0 0 10px; font-size: 40px; margin-top: 2px; color: #4678a2;">Optimed</p>
+        </a>
+
+        <ul class="menu nav navbar-nav navbar-right navbar-menu-right width-1024">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="clinic.html">Клиники</a></li>
+            <li><a href="comment.html">Отзывы</a></li>
+            <li class="nav-li-right"><a href="#contacts">Контакты</a></li>
+            <!--<li class="custom-sel">-->
+            <!--<a class="selected first-language" href="#">EN</a>-->
+            <!--<a class="hidden change" href="#">RU</a>-->
+            <!--<a class="hidden change" href="#">UA</a>-->
+            <!--<b class="caret"></b>-->
+            <!--</li>-->
+        </ul>
+
+        <div class="dropdown global-menu">
+            <button class="btns btn-default dropdown-toggle tablet-menu" type="button" ng-click="home.openMenu()"><i
+                    class="fa fa-bars color-black" aria-hidden="true"></i></button>
+        </div>
+        <ul class="slicknav_nav" aria-hidden="false" role="menu">
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://medconsalt.net/services.html" role="menuitem" >Наши услуги</a></li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-282"><a href="https://medconsalt.net/clinic.html" role="menuitem" >Клиника в Германии</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1406"><a href="https://medconsalt.net/comment.html" role="menuitem" >Отзывы</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="#contacts" role="menuitem" >Контакты</a></li>
+        </ul>
+    </div>
+
+</nav>
+
+
+<div class="container clinica-title">
+    <div class="title">Наши услуги</div>
+</div>
+<section class="sep2 width100 relative mt-20 mb-60">
+    <a class="bot_a" href="">
+        <img alt="" src="images/sep_img2.png" class="sep_img2">
+    </a>
+    <div class="sep_line"></div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="title_b_in title_service mb-20">
+            <p>Мы предлагаем Вам два пакетных варианта обслуживания</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 prichina_item paket">
+            <div class="prichina_in_w">
+                <div class="prichina_in">
+
+                    <img class="pr_img" src="images/Health-Medical.png" alt="">
+                    <div class="pr_title">Обследование</div>
+                    <div class="pr_text">
+                        <ul class="text_list_inner">
+                            <li>Заказ термина (приема у врача) до приезда в Германию</li>
+                            <li>Сопровождение в клинике на всех этапах (не более 4-х часов в день)</li>
+                            <li>Бронь жилья</li>
+                            <li>Оплата счетов (сопровождение при заключении договора и оплаты счетов в клинике)</li>
+                            <li>Сервисные услуги (телефон с местной сим-картой, интернет, 24/7 консультации и помощь)</li>
+
+                        </ul>
+                    </div>
+                    <div class="pr_title">1500 &#8364</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 prichina_item paket">
+            <div class="prichina_in_w">
+                <div class="prichina_in">
+
+                    <img class="pr_img" src="images/check.png" alt="">
+                    <div class="pr_title">Лечение</div>
+                    <div class="pr_text">
+                        <ul class="text_list_inner">
+                            <li>Заказ термина (приема у врача)</li>
+                            <li>Сопровождение в клинике на всех этапах (без ограничений)</li>
+                            <li>Оплата счетов (сопровождение при заключении договора и оплаты счетов в клинике)</li>
+                            <li>Посещение в стационаре, присутствие при обходе/консультаций врачей</li>
+                            <li>Сервисные услуги (телефон с местной сим-картой, бронь жилья, интернет, 24/7 консультации и помощь)</li>
+                        </ul>
+                    </div>
+                    <div class="pr_title">2500 &#8364</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!--<div class="title_b_in mb-20">-->
+    <!--<p>Вид услуги по организации лечения в Германии</p>-->
+    <!--</div>-->
+
+    <ul class="list-services">
+        <li>Обработка первичного запроса на лечение или диагностику в Германии</li>
+        <li>Подбор необходимого специалиста, запись на прием</li>
+        <li>Организация выезда в Германию</li>
+        <li>Консультативная помощь в оформлении визы</li>
+        <li>Услуги письменного перевода медицинского текста (выписки, результатов исследований и т.д) на русский язык.</li>
+        <li>Услуги сопровождения и перевода в клинике</li>
+        <li>Консультация по транспортному сообщению в городе (вызов такси, городской транспорт)</li>
+        <li>Трансфер из аэропорта Мюнхена, Нюрнберга в отель (или клинику в Регенсбурге)</li>
+        <li>Трансфер в аэропорт Мюнхена, Нюрнберга из отеля (или клинику в Регенсбурге)</li>
+        <li>Выписка рецепта у врача и помощь в приобретении медикаментов для пациента, находящегося в Германии</li>
+        <!--<tr>-->
+        <!--<td>Выписка рецептов, приобретение медикаментов и доставка в Москву или Киев для пациента, находящегося вне Германии</td>-->
+        <!--<td>10% от стоимости лекарства, но не менее 20 евро и не более 100 евро</td>-->
+        <!--</tr>-->
+
+
+    </ul>
+</div>
+<div id="contacts" class="center mt-40 question-btn">
+    <a class="btns pulse-buttonr11 lp_btn btn_pop question" name="Задать вопрос">Задать свой вопрос</a>
+</div>
+<footer  class="footer bg4 pt-70 mt-70 relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="fc">
+                    <div class="fc3 fc_in">
+                        <div class="f_t">
+                            Mail: info@medconsalt.net<br>Skype: medconsalt
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="fc">
+                    <div class="fc2 fc_in">
+                        <div class="f_t">
+                            Украина +38 (098) 7-925-925
+                            <br>
+                            Россия +79 2727-72-387
+                            <br>
+                            Германия +49 15-777-80-5196
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="fc">
+                    <div class="fc1 fc_in">
+                        <div class="f_t">
+                            Гемания, <br>
+                            Franz-Josef-Strauß-Allee 11, 93053 Regensburg
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row">-->
+
+            <!--<div class="col-xs-12 col-sm-12 col-md-6 foot_our center991">-->
+                <!--<div class="ft">-->
+                    <!--Наша цель-->
+                <!--</div>-->
+                <!--<div class="f_text">-->
+                    <!--Наша компания помогает получить качественную медицинскую помощь в Германии. Мы помогаем пациенту напрямую и-->
+                    <!--с комфортом контактировать с клиникой.-->
+                <!--</div>-->
+                <!--<div class="title_soc">-->
+                    <!--Мы в соцсетях-->
+                <!--</div>-->
+                <!--<div class="soc">-->
+                    <!--<a href="https://m.vk.com/id421173801" target="_blank" rel="nofollow">-->
+                        <!--<img src="images/vk.png" alt="">-->
+                    <!--</a>-->
+                    <!--<a href="" target="_blank" rel="nofollow">-->
+                        <!--<img src="images/gp.png" alt="">-->
+                    <!--</a>-->
+                    <!--<a href="https://www.facebook.com/medconsalt/" target="_blank" rel="nofollow">-->
+                        <!--<img src="images/fc.png" alt="">-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-xs-12 col-sm-12 col-md-6 mt-30 center991 mob991_none_zakaz">-->
+                <!--<a class="iphone_href btn_pop" href="#my-popup" data-mail="true" data-effect="mfp-zoom-in"-->
+                   <!--data-name="Бесплатная Skype консультация" data-from="Бесплатная Skype консультация">-->
+                    <!--<span class="iphone_w">-->
+                    <!--<img class="iphone shake" src="images/iphone.png" alt="">-->
+                    <!--</span>-->
+                    <!--<span class="zazv_f">-->
+                        <!--<span>-->
+                    <!--Заказать <br>-->
+                    <!--консультацию<br>-->
+                    <!--по Skype-->
+                    <!--</span>-->
+                    <!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</footer>
+
+<div class="modal_back mfp-bg display_none mfp-zoom-in mfp-ready"></div>
+<div class="modal_treatment display_none mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-zoom-in mfp-ready" tabindex="-1"
+     style="overflow-x: hidden; overflow-y: auto;"><div class="mfp-container mfp-s-ready mfp-inline-holder">
+    <div class="mfp-content"><div id="my-popup" class="white-popup mfp-with-anim">
+        <!--<div class="form_left">-->
+
+        <!--</div>-->
+        <div class="zakazatli_site">
+            <div class="zakaz_sit" ></div>
+            <div class="zak_form">Введите свое имя и Email. Наш менеджер свяжется с Вами в ближайшее время!</div>
+            <div class="forma_vopros">
+                <form id="form" action="" method="post" class="contactform">
+                    <div class="success_polt"></div>
+                    <input type="text" required="required" value="" placeholder="Ваше имя *" name="name" class="name_inp">
+                    <input type="text" required="required" placeholder="Телефон *" value="" name="phone" class="skype_inp">
+                    <input type="text" placeholder="Ваш Email (не обязательно)" value="" name="mail" class="mail_inp">
+
+                    <input type="submit" value="Отправить" class="btns submit button">
+                </form>
+            </div>
+            <!-- end forma -->
+        </div>
+        <button title="Закрыть (Esc)" type="button" class="mfp-close">×</button></div></div>
+    <div class="mfp-preloader">Загрузка...</div></div></div>
+<div class="modal_treatment display_none mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-zoom-in mfp-ready" tabindex="-1"
+     style="overflow-x: hidden; overflow-y: auto;" id="modalMessage"><div class="mfp-container mfp-s-ready mfp-inline-holder">
+    <div class="mfp-content"><div id="my-popup1" class="white-popup mfp-with-anim">
+        <!--<div class="form_left">-->
+
+        <!--</div>-->
+        <div class="zakazatli_site">
+            <div class="zakaz_sit" ></div>
+            <div class="zak_form">Мы свяжемся с Вами в ближайшее время!</div>
+            <div class="forma_vopros">
+                <form id="form3" action="" method="post" class="contactform">
+                    <div class="success_polt"></div>
+                    <input type="text" required="required" value="" placeholder="Ваше имя *" name="name" class="name_inp">
+                    <select class="country_inp" required="required" name="country" id="country_form3">
+                        <option value="" disabled selected>Выберите страну...</option>
+                        <option value="Украина">Украина</option>
+                        <option value="Россия">Россия</option>
+                    </select>
+                    <input type="text" required="required" placeholder="Телефон *" value="" name="phone" class="skype_inp" id="phone_form3">
+                    <input type="text"  placeholder="Ваш Email (не обязательно)" value="" name="mail" class="mail_inp">
+                    <textarea class="textarea_form" name="message" placeholder="Ваше ссообщение" value=""></textarea>
+                    <input type="submit" value="Отправить" class="btns submit button">
+                </form>
+            </div>
+            <!-- end forma -->
+        </div>
+        <button title="Закрыть (Esc)" type="button" class="mfp-close mfp-close-mes">×</button></div></div>
+    <div class="mfp-preloader">Загрузка...</div></div></div>
+
+<div class="display_none confirmation">
+    <div class="zak_form">
+        <p>Сообщение успешно отправлено.</p>
+        <p>Наши менеджеры свяжутся с Вами.</p>
+    </div>
+</div>
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script type="text/javascript" src="js/clinic.js"></script>
+</body>
+
+</html>
