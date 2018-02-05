@@ -24,7 +24,6 @@ window.addEventListener('load', function (){
     //     }
     // }});
     var confirmationTop = document.querySelector(".confirmation-top");
-    var confirmation = document.querySelector(".confirmation");
     var form_to_fill = document.querySelector(".form_kak_top");
     var form_place = document.querySelector(".form-block");
 
@@ -51,7 +50,7 @@ window.addEventListener('load', function (){
                     form_to_fill.classList.add("display_block");
                     $(".form_kak_mob").html(form_to_fill);
 
-                },2500);
+                },6000);
                 console.log("Ваше сообщение отпрвлено!");
 
             }}).then (function () {
@@ -83,8 +82,8 @@ window.addEventListener('load', function (){
         });
     });
 
-    var applyModal = document.querySelector(".treatment");
-    var consultModal = document.querySelector(".consultation");
+    // var applyModal = document.querySelector(".treatment");
+    // var consultModal = document.querySelector(".consultation");
     var questionModal = document.querySelector(".question");
     var closeBtn = document.querySelector(".mfp-close-reg");
     var closeBtnMes = document.querySelector(".mfp-close-mes");
@@ -97,25 +96,25 @@ window.addEventListener('load', function (){
     var country_form3 = document.querySelector('#country_form3');
 
 
-    applyModal.addEventListener('click', function ($event) {
-        console.log($event.target, $event.target.getAttribute('name'));
-        var textModal = $event.target.getAttribute('name');
-
-        modalTreatment.querySelector('.zakaz_sit').innerHTML = textModal;
-        modalTreatment.classList.remove("display_none");
-        modalBlack.classList.remove("display_none");
-        $('#form1')[0].reset();
-    });
-
-    consultModal.addEventListener('click', function ($event) {
-        console.log($event.target, $event.target.getAttribute('name'));
-        var textForModal = $event.target.getAttribute('name');
-
-        modalTreatment.querySelector('.zakaz_sit').innerHTML = textForModal;
-        modalTreatment.classList.remove("display_none");
-        modalBlack.classList.remove("display_none");
-        $('#form1')[0].reset();
-    });
+    // applyModal.addEventListener('click', function ($event) {
+    //     console.log($event.target, $event.target.getAttribute('name'));
+    //     var textModal = $event.target.getAttribute('name');
+    //
+    //     modalTreatment.querySelector('.zakaz_sit').innerHTML = textModal;
+    //     modalTreatment.classList.remove("display_none");
+    //     modalBlack.classList.remove("display_none");
+    //     $('#form1')[0].reset();
+    // });
+    //
+    // consultModal.addEventListener('click', function ($event) {
+    //     console.log($event.target, $event.target.getAttribute('name'));
+    //     var textForModal = $event.target.getAttribute('name');
+    //
+    //     modalTreatment.querySelector('.zakaz_sit').innerHTML = textForModal;
+    //     modalTreatment.classList.remove("display_none");
+    //     modalBlack.classList.remove("display_none");
+    //     $('#form1')[0].reset();
+    // });
 
     questionModal.addEventListener('click', function ($event) {
         console.log($event.target, $event.target.getAttribute('name'));

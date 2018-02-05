@@ -383,10 +383,10 @@ nav .caret.hide {
 /*# sourceMappingURL=nav.css.map */
 
 
-.logo-img {
-    width: 40%;
-    height: 278%;
-}
+/*.logo-img {*/
+    /*width: 40%;*/
+    /*height: 278%;*/
+/*}*/
 
 .wrapper-main {
     height: 600px;
@@ -505,6 +505,12 @@ nav .caret.hide {
         font-weight: 800;
         min-width: 458px;
         padding: 20px 50px 21px;
+    }
+    .logo-img {
+        width: 121%;
+        height: 112px;
+        margin-top: -21px;
+        margin-left: -46px;
     }
     nav .global-menu .btn-default {
         width: 109px;
@@ -766,7 +772,9 @@ nav .caret.hide {
 
 
 @media (min-width: 768px) {
-
+    .form_kak_mob {
+        height: 493px !important;
+    }
     .lp_btn {
         font-size: 26px;
         font-weight: 600;
@@ -948,6 +956,9 @@ nav .caret.hide {
     .question-btn  {
         margin-top: 25px;
     }
+    .form_kak_mob {
+        height: 537px !important;
+    }
     #my-popup1 {
         background: #fff;
         position: fixed;
@@ -960,6 +971,12 @@ nav .caret.hide {
         padding: 15px;
         margin-left: -250px;
         height: 600px;
+    }
+    .logo-img {
+        width: 57%;
+        height: 445%;
+        margin-top: -23px;
+        margin-left: 10px;
     }
     .confirmation {
         background: #fff;
@@ -1898,7 +1915,7 @@ a:hover, a:focus {
 }
 
 .bg4 {
-    background: rgba(0, 0, 0, 0) url('../images/bg4.jpg') no-repeat scroll center top / cover;
+    background: rgba(0, 0, 0, 0) url('../images/footer-background.png') no-repeat scroll center top / cover;
 }
 
 
@@ -5593,11 +5610,11 @@ textarea.text_polt {
 }
 
 .lp_bg4 {
-    background: #ffffff url("img/lp/bg4.jpg") no-repeat scroll center top / cover;
+    background: #ffffff url("img/footer-background.png") no-repeat scroll center top / cover;
 }
 
 .lp_bg5 {
-    background: #ffffff url("img/lp/bg5.jpg") no-repeat scroll center top / cover;
+    background: #ffffff url("img/bg5.jpg") no-repeat scroll center top / cover;
 }
 
 .pre_item {
@@ -7706,6 +7723,9 @@ a.slicknav_btn.slicknav_open {
 @media (max-width: 1024px) {
     .slicknav_nav {
         display: none;
+    }
+    .form_kak_mob {
+        height: 537px !important;
     }
     .sf-menu > li > a, .sf-menu > li > span {
         font-size: 13px;
