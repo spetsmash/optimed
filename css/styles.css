@@ -1,6 +1,7 @@
 
 body {
     font-family: "GothamProRegular" !important;
+    /*width: 118%;*/
 }
 @-webkit-keyframes animation-modal-content {
     0% {
@@ -174,7 +175,7 @@ nav {
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff !important;
-    font-size: 19px;
+    font-size: 17px;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #fff !important;
@@ -307,6 +308,19 @@ nav .caret {
 nav .caret.hide {
     display: none; }
 
+@media (min-width: 993px) and (max-width: 1023px) {
+    .container-for-text {
+        margin-top: 19px !important;
+    }
+    .logo-img {
+        width: 111%;
+        height: 112px;
+        margin-top: -21px;
+        margin-left: -46px;
+    }
+
+}
+}
 @media (min-width: 768px) and (max-width: 991px) {
 
     nav {
@@ -376,7 +390,7 @@ nav .caret.hide {
 
 .image {
     padding-top: 120px;
-    background-image: url("http://medstudium.ru/wp-content/themes/medstudium/img/bg1_3.jpg");
+    background-image: url(../images/freiburg-6.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
@@ -473,6 +487,36 @@ nav .caret.hide {
     margin: 12px auto 0;
     text-align: center;
 }
+
+.visitka {
+    margin: 4% 7% 0 7%;
+    border: 3px dashed #5a5ada;
+}
+
+.visitka-text {
+    font-size: 25px;
+    padding: 2%;
+}
+
+.icon-div {
+    font-size: 46px;
+}
+
+.footer-block {
+    padding: 0 70px 0 70px !important;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-text {
+    padding-top: 15px;
+}
+
+.telegram-icon {
+    width: 49px;
+    padding-top: 10px;
+}
+
 @media (min-width: 320px) {
     .lp_btn {
         font-size: 44px;
@@ -481,14 +525,14 @@ nav .caret.hide {
         padding: 20px 50px 21px;
     }
     nav .global-menu .btn-default {
-        width: 109px;
+        width: 123px;
         border: 0px;
         background-image: none;
         box-shadow: none;
-        margin-top: 4px;
-        height: 70px;
+        margin-top: 1px;
+        height: 62px;
         font-size: 41px;
-        line-height: 41px;
+        line-height: 42px;
     }
     .textarea_form {
         background: #f0f0f2  no-repeat scroll 12px center / 30px auto !important;
@@ -516,10 +560,10 @@ nav .caret.hide {
     }
 
     .logo-img {
-        width: 121%;
-        height: 112px;
+        width: 88%;
+        height: 90px;
         margin-top: -21px;
-        margin-left: -46px;
+        margin-left: -2px;
     }
     .pulse-button {
         -webkit-animation: r1 2s 0.5s ease-out infinite;
@@ -650,14 +694,42 @@ nav .caret.hide {
     .slicknav_nav a {
         display: block;
     }
+    .container-for-text {
+        margin-top: -59px;
+        width: 100%;
+        padding-left: 22px;
+    }
+
+    .form_kak_mob {
+        height: 442px !important;
+    }
+    .form_kak_t {
+        padding-top: 20px !important;
+    }
 }
 
 @media (min-width: 425px) {
 
+        .footer {
+            margin-top: 30px !important;
+            padding-top: 19px !important;
+            padding-bottom: 20px !important;
+        }
+
+            .bg4 {
+                background: rgba(0, 0, 0, 0) url(../images/footer-background.png) no-repeat scroll center top / cover;
+            }
+    .footer-block {
+        padding: 0 50px 0 50px !important;
+        font-size: 16px;
+        line-height: 28px;
+    }
     .container-for-text {
-        width: 750px;
-        margin: 0 auto;
-        top: 110px;
+        margin-top: -46px;
+        width: 100%;
+        padding-left: 0;
+        /*margin: 0 auto;*/
+        /*top: 110px;*/
     }
     #my-popup {
         background: #fff;
@@ -812,6 +884,10 @@ nav .caret.hide {
 }
 
 @media (min-width: 768px) {
+
+        .footer-block {
+            padding: 0 12px 0 34px !important;
+        }
     .form_kak_mob {
         height: 493px !important;
     }
@@ -891,9 +967,7 @@ nav .caret.hide {
 
 
     .container-for-text {
-        width: 750px;
-        margin: 0 auto;
-        top: 110px;
+        margin-top: 36px;
     }
     .container-for-text .pod_h_t {
         color: #fff;
@@ -914,11 +988,11 @@ nav .caret.hide {
     }
 
     .h_title h1 {
-        color: #fff;
-        font-family: neris;
-        font-size: 53px;
+        color: #210404;
+        font-size: 37px;
         margin: 0;
-        padding: 0;
+        padding: 2px 27px;
+        background: linear-gradient(to top, rgba(75, 78, 97, 0), rgba(100, 124, 136, 0.62) 40%, rgba(13, 3, 64, 0.58));
     }
 
 
@@ -953,7 +1027,7 @@ nav .caret.hide {
         text-align: center;
     }
     .why-we .title_w {
-        margin: 15px auto 18px;
+        margin: 0px auto 18px;
         padding: 0 0;
     }
     .why-we .pr_title {
@@ -963,9 +1037,9 @@ nav .caret.hide {
         margin: 10px auto;
     }
     .why-we .pr_img {
-        height: 46px;
-        -webkit-transition: all 0.4s ease 0s;
-        transition: all 0.4s ease 0s;
+        height: 120px;
+        float: left;
+        margin: 0px 0px 0px 0px;
     }
     .why-we .pr_text {
         color: #666666;
@@ -1064,7 +1138,7 @@ nav .caret.hide {
 
     .footer {
         margin-top: 30px !important;
-        padding-top: 34px !important;
+        padding-top: 19px !important;
         padding-bottom: 20px !important;
     }
     .footer .foot_our {
@@ -1136,17 +1210,11 @@ nav .caret.hide {
 
 @media (min-width: 425px) {
     .h_title h1 {
-        color: #fff;
-        font-family: neris;
-        font-size: 60px;
+        color: #210404;
+        font-size: 37px;
         margin: 0;
-        padding: 0;
-    }
-    .container-for-text {
-        width: 890px;
-        margin: 0 auto;
-        top: 110px;
-
+        padding: 2px 27px;
+        background: linear-gradient(to top, rgba(75, 78, 97, 0), rgba(100, 124, 136, 0.62) 40%, rgba(13, 3, 64, 0.58));
     }
     .container-for-text .pod_h_t {
         color: #fff;
@@ -1169,6 +1237,19 @@ nav .caret.hide {
 }
 
 @media (min-width: 320px) {
+        .footer {
+            margin-top: 30px !important;
+            padding-top: 12px !important;
+            padding-bottom: 20px !important;
+        }
+            .bg4 {
+                background: rgba(0, 0, 0, 0) url(../images/footer-background.png) no-repeat scroll center top / cover;
+            }
+    .footer-block {
+        padding: 0 50px 0 50px !important;
+        font-size: 16px;
+        line-height: 28px;
+    }
     #my-popup {
         background: #fff;
         position: fixed;
@@ -1216,9 +1297,8 @@ nav .caret.hide {
 }
 @media (min-width: 992px) {
     .container-for-text {
-        width: 970px;
-        margin: 0 auto;
-        top: 110px;
+        /*margin: 0 auto;*/
+        /*top: 110px;*/
     }
 
     .why-we .pr_text {
@@ -1295,6 +1375,9 @@ nav .caret.hide {
     }
 
 @media (min-width: 1024px) {
+    .footer-block {
+        padding: 0 60px 0 60px !important;
+    }
     .textarea_form {
         background: #f0f0f2 no-repeat scroll 12px center / 30px auto !important;
         border: medium none;
@@ -1306,11 +1389,14 @@ nav .caret.hide {
         padding: 1px 43px;
         width: 100%;
     }
+    .form_kak_t {
+        padding-top: 73px !important;
+    }
     .form_kak_mob {
         height: 537px !important;
     }
     .logo-img {
-        width: 57%;
+        width: 50%;
         height: 445%;
         margin-top: -23px;
         margin-left: 10px;
@@ -1348,7 +1434,7 @@ nav .caret.hide {
         height: 540px;
     }
     .wrapper-main .image {
-        padding-top: 36px;
+        padding-top: 56px;
         background-image:  url("../images/freiburg-6.jpg");
         background-repeat: no-repeat;
         height: 99.5%;
@@ -1363,9 +1449,10 @@ nav .caret.hide {
 
 
     .container-for-text {
-        width: 970px;
-        margin: 0 auto;
-        top: 110px;
+        margin-top: 19px;
+        width: 100%;
+        /*margin: 0 auto;*/
+        /*top: 110px;*/
     }
     .container-for-text .pod_h_t {
         color: #fff;
@@ -1387,11 +1474,11 @@ nav .caret.hide {
 
 
     .h_title h1 {
-        color: #fff;
-        font-family: neris;
-        font-size: 63px;
+        color: #210404;
+        font-size: 37px;
         margin: 0;
-        padding: 0;
+        padding: 2px 27px;
+        background: linear-gradient(to top, rgba(75, 78, 97, 0), rgba(100, 124, 136, 0.62) 40%, rgba(13, 3, 64, 0.58));
     }
 
     .services .title_w {
@@ -1426,7 +1513,7 @@ nav .caret.hide {
         text-align: center;
     }
     .why-we .title_w {
-        margin: 30px auto 30px;
+        margin: 0px auto 30px;
         padding: 0 0;
     }
     .why-we .pr_title {
@@ -1436,9 +1523,9 @@ nav .caret.hide {
         margin: 10px auto;
     }
     .why-we .pr_img {
-        height: 62px;
-        -webkit-transition: all 0.4s ease 0s;
-        transition: all 0.4s ease 0s;
+        height: 133px;
+        float: left;
+        margin: 0px 0px 0px 0px;
     }
     .why-we .pr_text {
         color: #666666;
@@ -1725,7 +1812,7 @@ nav .caret.hide {
 }
 
 .white .title, .white .pod_title {
-    color: #fff;
+    color: #131121;
 //margin-top: -158px;
 }
 
@@ -1751,15 +1838,35 @@ nav .caret.hide {
 
 .prichina_in_w {
     overflow: hidden;
-    border-radius: 5px;
     position: relative;
     z-index: 99;
     margin: 0 auto 8px;
 }
+.prichina_in_w:after {
+    opacity: 0;
+    position: absolute;
+    background: transparent;
+    height: 0;
+    width: 100%;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: all 0.4s;
+    border-radius: 0px;
+    box-shadow: 0 0 6px 2px rgba(51, 118, 183, 0.78) inset, 0 0 88px rgba(0, 0, 0, 0.3);
+}
+
+.prichina_in_w:hover:after {
+    height: 100%;
+    opacity: 1;
+}
 
 .prichini_w .row {
-    margin-left: -4px !important;
-    margin-right: -4px !important;
+    margin-left: -7px !important;
+    margin-right: -7px !important;
 }
 
 .prichina_item {
@@ -1768,25 +1875,23 @@ nav .caret.hide {
 }
 
 .pr_img {
-    height: 75px;
-    transition: all 0.4s ease 0s;
+    height: 133px;
+    float: left;
+    margin: 0px 0px 0px 0px;
 }
 
 .prichina_in:hover .pr_img {
 }
 
 .pr_num {
-    background: #333 none repeat scroll 0 0;
-    border-radius: 50%;
-    box-shadow: 115px 115px 0 #333 inset;
+    background: #1975aa;
     color: #fff;
-    height: 122px;
-    left: -65px;
-    position: absolute;
-    text-align: right;
-    top: -65px;
+    height: 51px;
     transition: all 0.4s ease 0s;
-    width: 122px;
+    line-height: 52px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 19px;
 }
 
 .pr_num_in {
@@ -1799,12 +1904,12 @@ nav .caret.hide {
     transition: all 0.4s ease 0s;
 }
 
-.prichina_in_w:hover .pr_num {
-    background: #ff0000 none repeat scroll 0 0;
-    box-shadow: 115px 115px 0 #ff0000 inset;
-    height: 132px;
-    width: 132px;
-}
+/*.prichina_in_w:hover .pr_num {*/
+    /*background: #ff0000 none repeat scroll 0 0;*/
+    /*box-shadow: 115px 115px 0 #ff0000 inset;*/
+    /*height: 132px;*/
+    /*width: 132px;*/
+/*}*/
 
 .prichina_in_w:hover .pr_num_in {
     bottom: 21px;
@@ -1946,24 +2051,28 @@ nav .caret.hide {
     right: 0;
     margin: auto;
 }
+/*@media (max-width: 768px) {*/
+    /*.col-xs-12 {*/
+        /*width: 100% !important;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 768px) {*/
+    /*.container {*/
+        /*width: 940px !important;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
+/*@media (min-width: 992px) {*/
+    /*.container {*/
+        /*width: 1086px !important;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1100px) {
-    .container {
-        width: 1070px;
-    }
-}
+/*@media (min-width: 1100px) {*/
+    /*.container {*/
+        /*width: 1252px !important;*/
+    /*}*/
+/*}*/
 
 .why_cover_clinic {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.06+0,0.11+1,0.17+2,0.2+3,0.2+3,0.28+4,0.29+4,0.31+4,0.37+5,0.37+5,0.42+5,0.42+5,0.49+6,0.49+6,0.54+7,0.56+7,0.61+7,0.67+9,0.69+10,0.72+11,0.83+19,0.89+26,0.94+35,0.97+45,1+49,0.91+70,0.83+81,0.81+81,0.8+84,0.72+89,0.71+90,0.69+90,0.67+91,0.61+93,0.46+94,0.37+95,0.37+95,0.28+96,0.28+96,0.26+97,0.2+97,0.2+97,0.17+98,0.17+98,0.14+98,0.06+100 */
@@ -3651,7 +3760,7 @@ a:hover {
     background-color: rgb(3, 4, 49);
     border: 1px solid rgba(125, 125, 125, 0.98);
     padding: 11px 57px;
-    font-size: 17px;
+    font-size: 22px;
     color: white;
     -webkit-box-shadow: 0px 0px 29px 0px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 29px 0px rgba(255,255,255,1);
@@ -3678,6 +3787,15 @@ a:hover {
     padding: 25px 15px 30px;
     text-align: center;
     height: 537px;
+}
+.footer-header {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer-underline {
+    background-color: #2392d9;
+    width: 108px;
 }
 
 @font-face {

@@ -175,7 +175,7 @@ nav {
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff !important;
-    font-size: 19px;
+    font-size: 17px;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #fff !important;
@@ -498,6 +498,24 @@ nav .caret.hide {
     margin: 12px auto 0;
     text-align: center;
 }
+.icon-div {
+    font-size: 46px;
+}
+
+.footer-block {
+    padding: 0 70px 0 70px !important;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-text {
+    padding-top: 15px;
+}
+
+.telegram-icon {
+    width: 49px;
+    padding-top: 10px;
+}
 
 @media (min-width: 320px) {
     .lp_btn {
@@ -507,20 +525,20 @@ nav .caret.hide {
         padding: 20px 50px 21px;
     }
     .logo-img {
-        width: 121%;
-        height: 112px;
+        width: 116%;
+        height: 90px;
         margin-top: -21px;
         margin-left: -46px;
     }
     nav .global-menu .btn-default {
-        width: 109px;
+        width: 123px;
         border: 0px;
         background-image: none;
         box-shadow: none;
-        margin-top: 4px;
-        height: 70px;
+        margin-top: 1px;
+        height: 62px;
         font-size: 41px;
-        line-height: 41px;
+        line-height: 42px;
     }
     #my-popup1 {
         background: #fff;
@@ -612,7 +630,20 @@ nav .caret.hide {
     }
 }
 @media (min-width: 425px) {
+    .footer-block {
+        padding: 0 50px 0 50px !important;
+        font-size: 16px;
+        line-height: 28px;
+    }
+        .footer {
+            margin-top: 30px !important;
+            padding-top: 19px !important;
+            padding-bottom: 20px !important;
+        }
 
+            .bg4 {
+                background: rgba(0, 0, 0, 0) url(../images/footer-background.png) no-repeat scroll center top / cover;
+            }
     #my-popup {
         background: #fff;
         position: fixed;
@@ -720,9 +751,14 @@ nav .caret.hide {
     }
 
     .footer {
-        margin-top: -11px;
-        /*padding-bottom: 53px;*/
+        margin-top: 30px !important;
+        padding-top: 19px !important;
+        padding-bottom: 20px !important;
     }
+
+    .bg4 {
+        background: rgba(0, 0, 0, 0) url(../images/footer-background.png) no-repeat scroll center top / cover;
+            }
     .footer .fc {
         margin-bottom: 21px;
     }
@@ -772,6 +808,18 @@ nav .caret.hide {
 
 
 @media (min-width: 768px) {
+    .footer-block {
+        padding: 0 12px 0 34px !important;
+    }
+        .footer {
+            margin-top: 30px !important;
+            padding-top: 19px !important;
+            padding-bottom: 20px !important;
+        }
+
+            .bg4 {
+                background: rgba(0, 0, 0, 0) url(../images/footer-background.png) no-repeat scroll center top / cover;
+            }
     .form_kak_mob {
         height: 493px !important;
     }
@@ -842,11 +890,11 @@ nav .caret.hide {
         line-height: 1.4;
         position: relative;
     }
-    .container-for-text {
-        width: 750px;
-        margin: 0 auto;
-        top: 110px;
-    }
+    /*.container-for-text {*/
+        /*width: 750px;*/
+        /*margin: 0 auto;*/
+        /*top: 110px;*/
+    /*}*/
     .container-for-text  .pod_h_t {
         color: #fff;
         font-family: neris;
@@ -867,11 +915,11 @@ nav .caret.hide {
     }
 
     .h_title h1 {
-        color: #fff;
-        font-family: neris;
-        font-size: 53px;
+        color: #210404;
+        font-size: 37px;
         margin: 0;
-        padding: 0;
+        padding: 2px 27px;
+        background: linear-gradient(to top, rgba(75, 78, 97, 0), rgba(100, 124, 136, 0.62) 40%, rgba(13, 3, 64, 0.58));
     }
     .slicknav_nav {
         background: #ffffff none repeat scroll 0 0;
@@ -904,6 +952,19 @@ nav .caret.hide {
 }
 
 @media (min-width: 320px) {
+    .footer {
+        margin-top: 30px !important;
+        padding-top: 12px !important;
+        padding-bottom: 20px !important;
+    }
+    .bg4 {
+        background: rgba(0, 0, 0, 0) url(../images/footer-background.png) no-repeat scroll center top / cover;
+    }
+    .footer-block {
+        padding: 0 50px 0 50px !important;
+        font-size: 16px;
+        line-height: 28px;
+    }
     .slicknav_nav {
         background: #ffffff none repeat scroll 0 0;
         border: 1px solid #DEDEDE;
@@ -938,17 +999,17 @@ nav .caret.hide {
         margin-left: -250px;
         height: 500px;
     }
-    .container-for-text {
-        width: 970px;
-        margin: 0 auto;
-        top: 110px;
-    }
+    /*.container-for-text {*/
+        /*width: 970px;*/
+        /*margin: 0 auto;*/
+        /*top: 110px;*/
+    /*}*/
     .h_title h1 {
-        color: #fff;
-        font-family: neris;
-        font-size: 60px;
+        color: #210404;
+        font-size: 37px;
         margin: 0;
-        padding: 0;
+        padding: 2px 27px;
+        background: linear-gradient(to top, rgba(75, 78, 97, 0), rgba(100, 124, 136, 0.62) 40%, rgba(13, 3, 64, 0.58));
     }
 }
 
@@ -973,7 +1034,7 @@ nav .caret.hide {
         height: 600px;
     }
     .logo-img {
-        width: 57%;
+        width: 50%;
         height: 445%;
         margin-top: -23px;
         margin-left: 10px;
@@ -1022,11 +1083,11 @@ nav .caret.hide {
     .foot_our {
         margin-top: 21px
     }
-    .container-for-text {
-        width: 1070px;
-        margin: 0 auto;
-        top: 110px;
-    }
+    /*.container-for-text {*/
+        /*width: 1070px;*/
+        /*margin: 0 auto;*/
+        /*top: 110px;*/
+    /*}*/
 
     nav .menu {
         color: black;
@@ -1044,11 +1105,11 @@ nav .caret.hide {
         margin-bottom: 42px;
     }
     .h_title h1 {
-        color: #fff;
-        font-family: neris;
-        font-size: 60px;
+        color: #210404;
+        font-size: 37px;
         margin: 0;
-        padding: 0;
+        padding: 2px 27px;
+        background: linear-gradient(to top, rgba(75, 78, 97, 0), rgba(100, 124, 136, 0.62) 40%, rgba(13, 3, 64, 0.58));
     }
 
 }
@@ -1059,7 +1120,7 @@ nav .caret.hide {
         color: black;
         line-height: 70%;
         padding-right: 10px;
-        margin-top: 2px;
+        margin-top: -8px;
     }
 }
 
@@ -1080,7 +1141,6 @@ nav .caret.hide {
     }
     nav .menu {
         color: black;
-
         line-height: 70%;
         padding-right: 10px;
         display: block;
@@ -1190,7 +1250,7 @@ nav .caret.hide {
 }
 
 .white .title, .white .pod_title {
-    color: #fff;
+    color: #131121;
     /*//margin-top: -158px;*/
 }
 
@@ -1240,13 +1300,13 @@ nav .caret.hide {
     padding-right: 4px !important;
 }
 
-.pr_img {
-    height: 75px;
-    transition: all 0.4s ease 0s;
-}
+/*.pr_img {*/
+    /*height: 75px;*/
+    /*transition: all 0.4s ease 0s;*/
+/*}*/
 
-.prichina_in:hover .pr_img {
-}
+/*.prichina_in:hover .pr_img {*/
+/*}*/
 
 .pr_num {
     background: #333 none repeat scroll 0 0;
@@ -3768,11 +3828,11 @@ body {
 }
 
 .h_title h1 {
-    color: #fff;
-    font-family: neris;
-    font-size: 60px;
+    color: #210404;
+    font-size: 37px;
     margin: 0;
-    padding: 0;
+    padding: 2px 27px;
+    background: linear-gradient(to top, rgba(75, 78, 97, 0), rgba(100, 124, 136, 0.62) 40%, rgba(13, 3, 64, 0.58));
 }
 
 .pod_h_t {
@@ -3925,13 +3985,13 @@ body {
     padding-right: 4px !important;
 }
 
-.pr_img {
-    height: 75px;
-    transition: all 0.4s ease 0s;
-}
+/*.pr_img {*/
+    /*height: 75px;*/
+    /*transition: all 0.4s ease 0s;*/
+/*}*/
 
-.prichina_in:hover .pr_img {
-}
+/*.prichina_in:hover .pr_img {*/
+/*}*/
 
 .pr_num {
     background: #333 none repeat scroll 0 0;
@@ -7093,7 +7153,8 @@ a.slicknav_btn.slicknav_open {
     }
 
     .h_title h1 {
-        font-size: 48px;
+        font-size: 30px;
+
     }
 
 }
