@@ -22,7 +22,7 @@ window.addEventListener('load', function (){
         //         document.querySelector(".slicknav_nav").classList.add("height_131");
         //         document.querySelector(".slicknav_nav").classList.remove("height_102");
         //     }
-        // }});
+         });
 
 
 

@@ -516,6 +516,21 @@ nav .caret.hide {
     width: 49px;
     padding-top: 10px;
 }
+@media (min-width: 425px) {
+    #my-popup1 {
+        background: #fff;
+        position: fixed;
+        left: 40%;
+        top: 44%;
+        margin-top: -200px;
+        overflow: hidden;
+        z-index: 2000;
+        width: 800px;
+        padding: 15px;
+        margin-left: -250px;
+        height: 654px;
+    }
+}
 
 @media (min-width: 320px) {
     .lp_btn {
@@ -544,7 +559,7 @@ nav .caret.hide {
         background: #fff;
         position: fixed;
         left: 50%;
-        top: 43%;
+        top: 40%;
         margin-top: -200px;
         overflow: hidden;
         z-index: 2000;
@@ -833,7 +848,7 @@ nav .caret.hide {
         background: #fff;
         position: fixed;
         left: 50%;
-        top: 50%;
+        top: 40%;
         margin-top: -200px;
         overflow: hidden;
         z-index: 2000;
@@ -1024,7 +1039,7 @@ nav .caret.hide {
         background: #fff;
         position: fixed;
         left: 50%;
-        top: 50%;
+        top: 40%;
         margin-top: -200px;
         overflow: hidden;
         z-index: 2000;
@@ -2797,7 +2812,7 @@ img.mfp-img {
 }
 
 .forma_vopros .country_inp {
-    background: #f0f0f2 url("../images/name_inp.png") no-repeat scroll 12px center / 30px auto !important;
+    //background: #f0f0f2 url("../images/name_inp.png") no-repeat scroll 12px center / 30px auto !important;
     border: medium none;
     border-radius: 100px;
     box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3) inset;
@@ -3480,7 +3495,7 @@ a:hover, a:focus {
 body {
     color: #333;
     font-family: 'Open Sans', sans-serif, Arial;
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 1.5;
 }
 

@@ -518,6 +518,12 @@ nav .caret.hide {
 }
 
 @media (min-width: 320px) {
+    .services .title {
+        font-size:30px;
+    }
+    .title_w .title {
+        font-size:30px;
+    }
     .lp_btn {
         font-size: 44px;
         font-weight: 800;
@@ -709,7 +715,10 @@ nav .caret.hide {
 }
 
 @media (min-width: 425px) {
-
+    .services .title {
+        font-family: neris;
+        font-size:35px;
+    }
         .footer {
             margin-top: 30px !important;
             padding-top: 19px !important;
@@ -1233,6 +1242,9 @@ nav .caret.hide {
         line-height: 1.3;
         margin: 12px auto 0;
         text-align: center;
+    }
+    .title_w .title {
+        font-size: 35px;
     }
 }
 
@@ -2490,7 +2502,7 @@ nav .caret.hide {
 }
 
 .bot_ar_faq {
-    background: #eb3331 url("../images/bot_ar_faq.png") no-repeat scroll center center / auto 10px;
+    background: #1b74aa url("../images/bot_ar_faq.png") no-repeat scroll center center / auto 10px;
     display: inline-block;
     float: left;
     height: 45px;
