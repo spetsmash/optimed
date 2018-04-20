@@ -4000,10 +4000,9 @@ body {
     padding-right: 4px !important;
 }
 
-/*.pr_img {*/
-    /*height: 75px;*/
-    /*transition: all 0.4s ease 0s;*/
-/*}*/
+.pr_img {
+    width: 80px !important;
+}
 
 /*.prichina_in:hover .pr_img {*/
 /*}*/
